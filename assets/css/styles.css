@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+body {
+    background-color: red !important;
+}
 
 body {
     background-color: #f7f9fb;
