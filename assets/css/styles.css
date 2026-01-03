@@ -12,16 +12,27 @@ body {
 
 /* HEADER */
 .header {
-  background: #ffffff;
-  padding: 20px;
+  background: linear-gradient(
+    to bottom,
+    #abd6f0,
+    #ffffff
+  );
+  padding: 28px 16px;
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dbe9f3;
 }
 
 .logo {
-  max-height: 15vh;
-  /* border: solid red ; */
+  max-height: 100px;
 }
+
+.brand-strip {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
 
 /* BREADCRUMB */
 .breadcrumb {
